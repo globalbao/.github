@@ -17,6 +17,7 @@ jobs:
           feed_list: "https://jloudon.com/feed.xml"
           max_post_count: "15"
           committer_email: "13147870+jesseloudon@users.noreply.github.com"
+          readme_path: profile/README.md
 
   update-readme-with-youtube-playlist:
     name: Update this repo's README with latest videos from YouTube playlist
@@ -31,3 +32,4 @@ jobs:
           date_format: "mmm d, yyyy"
           template: '<table><tr><td><a href="$url"><img width="140px" src="https://i.ytimg.com/vi/$videoId/mqdefault.jpg"></a></td>$newline<td><a href="$url">$title</a><br/>$date</td></tr></table>$newline'
           committer_email: "13147870+jesseloudon@users.noreply.github.com"
+          readme_path: profile/README.md

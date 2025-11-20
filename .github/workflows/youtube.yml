@@ -13,3 +13,4 @@ jobs:
         with:
           channel_id: UCZ79IZ2ofpJhLVAOgN0n9tw
           comment_tag_name: YOUTUBE-CARDS
+          readme_path: profile/README.md
